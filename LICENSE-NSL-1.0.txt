@@ -1,0 +1,163 @@
+NO-SLOP LICENSE v1.0 (NSL-1.0)
+
+Copyright (c) 2025 MemerGamer
+
+A permissive open-source license that encourages responsible AI usage
+while preventing mindless commercial exploitation through "vibecoding."
+
+=================================================================
+TERMS AND CONDITIONS
+=================================================================
+
+SECTION 1: GRANT OF LICENSE
+
+Permission is hereby granted, free of charge, to any person or entity
+obtaining a copy of this software and associated documentation files
+(the "Software"), to deal in the Software without restriction for
+NON-COMMERCIAL purposes, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+
+SECTION 2: COMMERCIAL USE REQUIREMENTS
+
+Any COMMERCIAL use, distribution, or derivation of the Software must
+comply with ALL of the following requirements:
+
+2.1 HUMAN VERIFICATION MANDATE
+    All code in the Software or derivative works, regardless of
+    authorship method, must be reviewed, understood, and verified
+    for correctness by qualified human developers before commercial
+    distribution.
+
+2.2 AI USAGE DISCLOSURE & ATTRIBUTION
+
+    2.2.1 THRESHOLD: 50% AI-Generated Content
+          If AI systems generated ≥50% but <70% of NEW code in a
+          derivative work (measured by significant lines of code or
+          functional contribution), you MUST:
+          
+          a) Include prominent attribution to the original project:
+             - In product documentation
+             - In user-facing "About" or "Credits" sections
+             - In README or similar distribution files
+             
+          b) Include an AI_USAGE.md file documenting:
+             - Percentage of AI-generated code
+             - Development methodology
+             - Human verification process
+             - Link to original project
+
+    2.2.2 HARD CAP: 70% AI-Generated Content
+          If AI systems generated ≥70% of NEW code in a derivative
+          work, commercial distribution is PROHIBITED. The commercial
+          license is automatically VOID.
+          
+          Exception: You may request explicit written permission from
+          the original copyright holder(s).
+
+2.3 DEFINITIONS
+
+    "AI-generated code" means source code where an artificial
+    intelligence system produced the implementation from natural
+    language prompts or instructions, without substantial human
+    redesign of the generated output.
+    
+    INCLUDES (counts toward AI percentage):
+    ✗ Using AI to generate feature implementations with <40% human modification
+    ✗ "Vibecoding" - prompting features without understanding internals
+    ✗ AI-written critical business logic without human design input
+    ✗ AI-designed architecture without human verification
+    ✗ Direct prompt-to-production workflows
+    
+    EXCLUDES (does NOT count toward AI percentage):
+    ✓ Boilerplate code (imports, configurations, basic CRUD patterns)
+    ✓ Code completion and autocomplete suggestions
+    ✓ Automated refactoring and code formatting
+    ✓ AI suggestions modified substantially by humans (≥40% changes)
+    ✓ AI-designed architecture that humans verified and approved
+    ✓ Documentation, comments, and docstrings
+    ✓ Test scaffolding and mock data
+    ✓ Debugging assistance and error fixes
+    
+    "NEW code" means code added or substantially modified in the
+    derivative work, excluding the original Software's codebase.
+    
+    "COMMERCIAL use" means any use where the primary purpose is
+    commercial advantage or monetary compensation, including:
+    - Direct sale of software
+    - SaaS or subscription services
+    - Ad-supported distribution
+    - Freemium models with paid features
+    - Internal use in commercial operations (enterprise use)
+
+2.4 CRITICAL LOGIC REQUIREMENTS
+    Core business logic, security implementations, authentication
+    systems, and data handling code must have demonstrable human
+    design input, even if AI assists with implementation details.
+
+2.5 COMPLIANCE DOCUMENTATION
+    Commercial distributors must maintain reasonable development
+    records demonstrating compliance and provide good-faith
+    attestation upon written request from the copyright holder(s).
+
+SECTION 3: ENFORCEMENT
+
+3.1 BREACH OF LICENSE
+    Failure to comply with Section 2 requirements constitutes a
+    material breach of this license and automatically terminates
+    your rights under this license.
+
+3.2 CURE PERIOD
+    Upon written notice of non-compliance, you have 30 days to:
+    - Provide required attribution and documentation, OR
+    - Cease commercial distribution
+    
+    Failure to cure results in permanent license termination.
+
+3.3 GOOD FAITH STANDARD
+    This license assumes good faith compliance. Deliberate
+    misrepresentation of AI usage or obvious violations
+    (e.g., trivial rebranding of AI-generated derivatives)
+    constitute willful breach.
+
+SECTION 4: COMPATIBILITY
+
+This license is designed to be compatible with:
+- GNU GPL v3.0 (derivative can be relicensed as GPL v3)
+- Apache License 2.0 patent grants
+- MIT License for non-commercial portions
+
+When combining with other licenses, the most restrictive commercial
+terms apply.
+
+SECTION 5: GENERAL PROVISIONS
+
+5.1 The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+
+5.2 Redistributions must retain this license file and any
+    AI_USAGE.md documentation.
+
+5.3 This license applies to the Software and all derivative works.
+
+5.4 License versioning follows semantic versioning. "NSL-1.0" refers
+    specifically to this version. Future versions may have different
+    terms.
+
+=================================================================
+DISCLAIMER
+=================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+=================================================================
+END OF LICENSE
+=================================================================
+
+For questions, see: https://github.com/MemerGamer/no-slop-license
