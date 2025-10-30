@@ -121,6 +121,10 @@ This license is a community effort. We welcome:
 
 _Be the first!_ Open a PR to add your project here.
 
+---
+
+- No-Slop License itself :), see [AI_USAGE](./AI_USAGE.md)
+
 ## License
 
 This license text itself is released under CC0 (public domain).  
